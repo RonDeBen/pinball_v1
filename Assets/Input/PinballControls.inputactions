@@ -1,0 +1,153 @@
+{
+    "name": "PinballControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "f84fe4d4-8b84-48f7-9b5f-8c5cf1a92cf6",
+            "actions": [
+                {
+                    "name": "LeftTriggerPressed",
+                    "type": "Button",
+                    "id": "6231272f-f5a7-49af-a881-e9df22f34c11",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightTriggerPressed",
+                    "type": "Button",
+                    "id": "be991e0f-6788-40b2-a73e-db11d2e85bb3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "RightTriggerReleased",
+                    "type": "Button",
+                    "id": "20b94c2d-a999-4826-87d2-131efbcd2fc2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "LeftTriggerReleased",
+                    "type": "Button",
+                    "id": "7aeff1d5-a754-4314-8d89-2250ea6a700e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Plunger",
+                    "type": "Value",
+                    "id": "907745be-4685-4baf-8a26-3997839aa772",
+                    "expectedControlType": "Analog",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f578354e-86a1-4fc2-b072-17f15225a305",
+                    "path": "<HID::VirtuaPin Controller>/button10",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "98149302-17d1-4812-9914-44ec9f28f4ff",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "db29e346-a069-4afe-9826-c9976a7100c1",
+                    "path": "<HID::VirtuaPin Controller>/button2",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "add6745b-9e62-4c95-b0b4-a0abd4e7abd7",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0df06350-e067-40e5-983c-732a8b45675a",
+                    "path": "<HID::VirtuaPin Controller>/button2",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerReleased",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "38b799bc-91a7-443b-8317-f0402233f582",
+                    "path": "<Keyboard>/rightShift",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightTriggerReleased",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d54e2dae-34cd-4344-b023-4605e3d337da",
+                    "path": "<HID::VirtuaPin Controller>/button10",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggerReleased",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a5745596-5ee7-4d48-bba7-adbcafd5ba23",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftTriggerReleased",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6c0797d6-4e55-45a1-91ce-2e2324a98702",
+                    "path": "<HID::VirtuaPin Controller>/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Plunger",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
